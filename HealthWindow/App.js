@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <WebView
-        source={{ uri: "https://www.naver.com" }}
+        source={{ uri: "https://healthback.run.goorm.io/ " }}
         ref={(webView) => { this.webView.ref = webView; }}
         onNavigationStateChange={(navState) => { this.webView.canGoBack = navState.canGoBack; }}
       />
